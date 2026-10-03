@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+title: >-
+  A Systematic Review and Comparative Analysis of Arabic-Centric SOTA
+  Language Models — Code and Reproducibility Audit
+message: >-
+  If you use this software or its audit artifacts, please cite both the
+  repository and the accompanying paper.
+type: software
+authors:
+  - given-names: Ayham
+    family-names: Alomari
+    email: ay_alomari@asu.edu.jo
+    affiliation: >-
+      Department of Computer Science, Faculty of Information Technology,
+      Applied Science Private University, Amman, Jordan
+  - given-names: Ahmad
+    family-names: Salameh
+    email: ahmad.salameh03@gmail.com
+    affiliation: Independent Researcher
+  - given-names: Aysar Shafiq
+    family-names: Alomari
+    email: a.alomari@fikr.edu.sa
+    affiliation: Dar Alfikr School
+repository-code: >-
+  https://github.com/Amrs03/A-Systematic-Review-and-Comparative-Analysis-of-Arabic-Centric-SOTA-Language-Models-Code
+abstract: >-
+  Evaluation pipeline, result artifacts, and CPU-only reproducibility audit for
+  a two-track comparative study of five Arabic-centric language models (ALLaM,
+  Falcon-Arabic, JAIS, MARBERT, AraBERT) on a single 8 GB consumer GPU. Track A
+  fine-tunes two compact encoders on five Arabic understanding datasets; Track B
+  evaluates four instruction-tuned decoders zero-shot on six multiple-choice
+  benchmarks. The audit re-derives every reported number from the surviving
+  artifacts and shows that only 2 of 23 completed decoder runs are capability
+  measurements, the remainder being determined by harness defects in gold-label
+  lookup, prompt construction, decode budget, and answer extraction.
+keywords:
+  - Arabic natural language processing
+  - large language models
+  - benchmarking
+  - evaluation
+  - reproducibility
+  - answer extraction
+  - ALLaM
+  - JAIS
+  - AraBERT
+  - MARBERT
+  - Falcon-Arabic
+license: MIT
+version: 1.0.0
+date-released: '2026-10-03'
+preferred-citation:
+  type: article
+  title: >-
+    A Systematic Review and Comparative Analysis of Arabic-Centric SOTA
+    Language Models
+  authors:
+    - given-names: Ayham
+      family-names: Alomari
+    - given-names: Ahmad
+      family-names: Salameh
+    - given-names: Aysar Shafiq
+      family-names: Alomari
+  year: 2026

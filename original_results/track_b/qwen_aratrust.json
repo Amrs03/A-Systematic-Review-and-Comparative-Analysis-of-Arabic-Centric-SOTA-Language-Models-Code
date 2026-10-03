@@ -1,0 +1,10 @@
+{
+  "model": "qwen",
+  "dataset": "aratrust",
+  "timestamp": "2026-04-06T17:25:45.816017",
+  "accuracy": 0.23754789272030652,
+  "correct": 124,
+  "total": 522,
+  "errors": 0,
+  "error_samples": []
+}

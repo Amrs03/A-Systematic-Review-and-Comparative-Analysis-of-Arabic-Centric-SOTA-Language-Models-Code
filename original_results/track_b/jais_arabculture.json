@@ -1,0 +1,10 @@
+{
+  "model": "jais",
+  "dataset": "arabculture",
+  "timestamp": "2026-04-22T08:55:59.736648",
+  "accuracy": 0.33454876937101186,
+  "correct": 367,
+  "total": 1097,
+  "errors": 0,
+  "error_samples": []
+}

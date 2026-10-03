@@ -1,0 +1,21 @@
+model,model_label,category,average_score,datasets,result_count,average_score_pct
+falcon,Falcon,Commonsense / STEM,0.2558870181122452,"Arabic MMLU, Madinah QA, EXAMS AR",3,25.588701811224517
+allam,ALLAM,Commonsense / STEM,0.17815021725636251,"Arabic MMLU, EXAMS AR, Madinah QA",3,17.815021725636253
+qwen,Qwen,Commonsense / STEM,0.1632526381129733,"Arabic MMLU, EXAMS AR, Madinah QA",3,16.32526381129733
+jais,Jais,Commonsense / STEM,0.13396465110047429,"Arabic MMLU, EXAMS AR",2,13.396465110047428
+falcon,Falcon,Cultural Understanding,0.16864175022789427,"ArabCulture, AraDiCE",2,16.864175022789425
+jais,Jais,Cultural Understanding,0.16727438468550593,"AraDiCE, ArabCulture",2,16.72743846855059
+allam,ALLAM,Cultural Understanding,0.0,"AraDiCE, ArabCulture",2,0.0
+qwen,Qwen,Cultural Understanding,0.0,"AraDiCE, ArabCulture",2,0.0
+marbert,MARBERT,Dialect Identification,0.7404397269256221,QADI,1,74.0439726925622
+arabert,AraBERT,Dialect Identification,0.6863337513349459,QADI,1,68.6333751334946
+arabert,AraBERT,Named Entity Recognition,0.5471467947352271,ANERcorp,1,54.71467947352271
+marbert,MARBERT,Named Entity Recognition,0.529878212209027,ANERcorp,1,52.987821220902696
+marbert,MARBERT,Sentiment Analysis,0.6920340919612922,"ASTD, HARD",2,69.20340919612921
+arabert,AraBERT,Sentiment Analysis,0.6884115103575188,"ASTD, HARD",2,68.84115103575188
+marbert,MARBERT,Social Meaning,0.7661516226092022,ArSarcasm,1,76.61516226092021
+arabert,AraBERT,Social Meaning,0.749171689176682,ArSarcasm,1,74.91716891766819
+jais,Jais,Social Meaning,0.3218390804597701,AraTrust,1,32.18390804597701
+falcon,Falcon,Social Meaning,0.2662835249042146,AraTrust,1,26.62835249042146
+allam,ALLAM,Social Meaning,0.2509578544061303,AraTrust,1,25.095785440613028
+qwen,Qwen,Social Meaning,0.23754789272030652,AraTrust,1,23.754789272030653

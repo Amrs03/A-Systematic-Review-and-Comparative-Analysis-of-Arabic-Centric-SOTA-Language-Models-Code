@@ -1,0 +1,10 @@
+{
+  "model": "qwen",
+  "dataset": "aradice",
+  "timestamp": "2026-04-06T19:03:36.889373",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 120,
+  "errors": 0,
+  "error_samples": []
+}

@@ -1,0 +1,152 @@
+{
+  "profiles": {
+    "arabic_mmlu": {
+      "dataset": "arabic_mmlu",
+      "n": 14455,
+      "columns": "ID,Source,Country,Group,Subject,Level,Question,Context,Answer Key,Option 1,Option 2,Option 3,Option 4,Option 5,is_few_shot",
+      "gold_coverage": 1.0,
+      "gold_counts": {
+        "A": 4509,
+        "B": 3846,
+        "C": 2924,
+        "D": 3037,
+        "E": 139
+      },
+      "empty_gold": 0,
+      "prompts_with_empty_stem": 0,
+      "prompts_dropping_context": 706,
+      "prompts_showing_no_options": 0,
+      "options_shown_hist": {
+        "4": 10120,
+        "2": 1874,
+        "3": 2121,
+        "5": 340
+      },
+      "chance_level": 0.29346246973365875
+    },
+    "madinah_qa": {
+      "dataset": "madinah_qa",
+      "n": 977,
+      "columns": "ID,Source,Country,Group,Subject,Level,Question,Context,Answer Key,Option 1,Option 2,Option 3,Option 4,Option 5,is_few_shot",
+      "gold_coverage": 1.0,
+      "gold_counts": {
+        "A": 261,
+        "B": 254,
+        "C": 232,
+        "D": 200,
+        "E": 30
+      },
+      "empty_gold": 0,
+      "prompts_with_empty_stem": 0,
+      "prompts_dropping_context": 602,
+      "prompts_showing_no_options": 0,
+      "options_shown_hist": {
+        "4": 670,
+        "3": 55,
+        "5": 214,
+        "2": 38
+      },
+      "chance_level": 0.2534629819174318
+    },
+    "exams_ar": {
+      "dataset": "exams_ar",
+      "n": 537,
+      "columns": "id,subject,question,A,B,C,D,answer",
+      "gold_coverage": 1.0,
+      "gold_counts": {
+        "A": 127,
+        "B": 141,
+        "C": 130,
+        "D": 139,
+        "E": 0
+      },
+      "empty_gold": 0,
+      "prompts_with_empty_stem": 0,
+      "prompts_dropping_context": 0,
+      "prompts_showing_no_options": 0,
+      "options_shown_hist": {
+        "4": 537
+      },
+      "chance_level": 0.25
+    },
+    "aratrust": {
+      "dataset": "aratrust",
+      "n": 522,
+      "columns": "Question,A,B,C,Answer,Category,Subcategory",
+      "gold_coverage": 1.0,
+      "gold_counts": {
+        "A": 163,
+        "B": 168,
+        "C": 191,
+        "D": 0,
+        "E": 0
+      },
+      "empty_gold": 0,
+      "prompts_with_empty_stem": 0,
+      "prompts_dropping_context": 0,
+      "prompts_showing_no_options": 522,
+      "options_shown_hist": {
+        "0": 522
+      },
+      "chance_level": 0.3333333333333344
+    },
+    "arabculture": {
+      "dataset": "arabculture",
+      "n": 1097,
+      "columns": "worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region",
+      "gold_coverage": 1.0,
+      "gold_counts": {
+        "A": 374,
+        "B": 371,
+        "C": 352,
+        "D": 0,
+        "E": 0
+      },
+      "empty_gold": 0,
+      "prompts_with_empty_stem": 1097,
+      "prompts_dropping_context": 0,
+      "prompts_showing_no_options": 0,
+      "options_shown_hist": {
+        "3": 1097
+      },
+      "chance_level": 0.3333333333333303
+    },
+    "aradice": {
+      "dataset": "aradice",
+      "n": 120,
+      "columns": "QID,Question,Option A,Option B,Option C",
+      "gold_coverage": 0.0,
+      "gold_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "empty_gold": 120,
+      "prompts_with_empty_stem": 0,
+      "prompts_dropping_context": 0,
+      "prompts_showing_no_options": 0,
+      "options_shown_hist": {
+        "3": 120
+      },
+      "chance_level": 0.33333333333333337
+    }
+  },
+  "falcon_logged_samples": {
+    "n": 30,
+    "pred_A": 25,
+    "degenerate_repetition": 30,
+    "raw_starting_with_alef_lam_run": 24
+  },
+  "status_counts": {
+    "ZERO_ANOMALY_GOLD_LOOKUP": 6,
+    "PROMPT_DEFECT": 4,
+    "GOLD_MISSING": 4,
+    "DEGENERATE_OUTPUT": 4,
+    "ABOVE_BASELINE": 2,
+    "CONSTANT_PREDICTOR": 2,
+    "NO_RESULT": 1,
+    "DEGENERATE_NEAR_ZERO": 1
+  }
+}

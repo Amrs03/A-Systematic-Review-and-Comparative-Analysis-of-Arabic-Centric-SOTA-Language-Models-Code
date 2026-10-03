@@ -1,0 +1,19 @@
+{
+  "model": "falcon",
+  "model_label": "Falcon-Arabic",
+  "dataset": "arabculture",
+  "dataset_label": "ArabCulture",
+  "timestamp": "2026-05-30T04:54:29.531209",
+  "accuracy": 0.33728350045578853,
+  "correct": 370,
+  "total": 1097,
+  "errors": 0,
+  "error_samples": [],
+  "error_summary": "",
+  "max_new_tokens": 20,
+  "generation_cache": "enabled_native_dynamic_cache",
+  "prompt_builder": "build_culture_prompt",
+  "split": "test",
+  "first_prompt": "السؤال: \nأ) تُقدم الفلافل مع الشوكولاتة.\nب)  تُقدم الفلافل مع الطحينة والمخللات.\nج)  تُقدم الفلافل مع القشطة.\n\nاختر الإجابة الصحيحة (أ، ب، ج، أو د). أجب بحرف واحد فقط.\nالإجابة:",
+  "runtime_seconds": 432.6798748970032
+}

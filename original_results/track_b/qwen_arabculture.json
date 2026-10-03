@@ -1,0 +1,10 @@
+{
+  "model": "qwen",
+  "dataset": "arabculture",
+  "timestamp": "2026-04-06T18:53:47.032421",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1097,
+  "errors": 0,
+  "error_samples": []
+}

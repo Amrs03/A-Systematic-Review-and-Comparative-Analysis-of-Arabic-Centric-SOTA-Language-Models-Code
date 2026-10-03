@@ -1,0 +1,10 @@
+{
+  "model": "qwen",
+  "dataset": "arabic_mmlu",
+  "timestamp": "2026-04-06T14:18:48.285102",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 14455,
+  "errors": 0,
+  "error_samples": []
+}

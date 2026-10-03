@@ -1,0 +1,10 @@
+{
+  "model": "jais",
+  "dataset": "arabic_mmlu",
+  "timestamp": "2026-04-22T18:36:13.885288",
+  "accuracy": 0.2660671048080249,
+  "correct": 3846,
+  "total": 14455,
+  "errors": 0,
+  "error_samples": []
+}

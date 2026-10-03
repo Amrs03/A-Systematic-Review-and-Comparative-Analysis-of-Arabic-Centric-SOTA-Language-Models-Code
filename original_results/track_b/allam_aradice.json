@@ -1,0 +1,10 @@
+{
+  "model": "allam",
+  "dataset": "aradice",
+  "timestamp": "2026-04-04T10:06:43.777657",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 120,
+  "errors": 0,
+  "error_samples": []
+}

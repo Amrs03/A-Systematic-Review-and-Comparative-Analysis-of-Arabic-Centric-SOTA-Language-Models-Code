@@ -1,0 +1,10 @@
+{
+  "model": "allam",
+  "dataset": "madinah_qa",
+  "timestamp": "2026-04-04T09:46:18.588320",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 977,
+  "errors": 0,
+  "error_samples": []
+}

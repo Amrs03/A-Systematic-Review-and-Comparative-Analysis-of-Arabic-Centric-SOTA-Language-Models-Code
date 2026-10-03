@@ -1,0 +1,10 @@
+{
+  "model": "allam",
+  "dataset": "arabic_mmlu",
+  "timestamp": "2026-04-04T09:38:13.604980",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 14455,
+  "errors": 0,
+  "error_samples": []
+}

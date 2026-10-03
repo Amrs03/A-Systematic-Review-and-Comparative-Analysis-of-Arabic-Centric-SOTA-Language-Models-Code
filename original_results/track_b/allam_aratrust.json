@@ -1,0 +1,10 @@
+{
+  "model": "allam",
+  "dataset": "aratrust",
+  "timestamp": "2026-04-04T09:55:03.455369",
+  "accuracy": 0.2509578544061303,
+  "correct": 131,
+  "total": 522,
+  "errors": 0,
+  "error_samples": []
+}

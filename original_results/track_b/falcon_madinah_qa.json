@@ -1,0 +1,19 @@
+{
+  "model": "falcon",
+  "model_label": "Falcon-Arabic",
+  "dataset": "madinah_qa",
+  "dataset_label": "Madinah QA",
+  "timestamp": "2026-05-30T04:37:21.432962",
+  "accuracy": 0.2610030706243603,
+  "correct": 255,
+  "total": 977,
+  "errors": 0,
+  "error_samples": [],
+  "error_summary": "",
+  "max_new_tokens": 20,
+  "generation_cache": "enabled_native_dynamic_cache",
+  "prompt_builder": "build_mcq_prompt",
+  "split": "test",
+  "first_prompt": "السؤال: اقرأ الفقرة التالية ثم اختر البديل المناسب لـ [فراغ] الذي يكمل الجملة بشكل صحيح\n خرج في هذا اليوم [فراغ] .\nأ) الأب\nب) الأم\nج) الأخوات\nد) الأسرة\n\nاختر الإجابة الصحيحة (أ، ب، ج، أو د). أجب بحرف واحد فقط.\nالإجابة:",
+  "runtime_seconds": 643.924718618393
+}

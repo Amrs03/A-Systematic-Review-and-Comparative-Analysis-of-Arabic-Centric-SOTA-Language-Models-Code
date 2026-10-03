@@ -1,0 +1,19 @@
+{
+  "model": "falcon",
+  "model_label": "Falcon-Arabic",
+  "dataset": "exams_ar",
+  "dataset_label": "EXAMS AR",
+  "timestamp": "2026-05-30T04:44:03.520411",
+  "accuracy": 0.21042830540037244,
+  "correct": 113,
+  "total": 537,
+  "errors": 0,
+  "error_samples": [],
+  "error_summary": "",
+  "max_new_tokens": 20,
+  "generation_cache": "enabled_native_dynamic_cache",
+  "prompt_builder": "build_mcq_prompt",
+  "split": "test",
+  "first_prompt": "السؤال: قال تعالى ( فَلََدْعٌ نَادِيَهُ (17) سَنَدْع الدْبَانِيَةِ (18) ) معنى كلمة الزّبَاِيَةِ هو\nأ) ملائكة الجبال\nب) ملائكة السحاب\nج) خزنة جهنم\nد) حملة العرش\n\nاختر الإجابة الصحيحة (أ، ب، ج، أو د). أجب بحرف واحد فقط.\nالإجابة:",
+  "runtime_seconds": 401.2647156715393
+}

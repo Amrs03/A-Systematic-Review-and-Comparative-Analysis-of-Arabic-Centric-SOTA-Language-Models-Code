@@ -1,0 +1,10 @@
+{
+  "model": "allam",
+  "dataset": "exams_ar",
+  "timestamp": "2026-04-04T09:48:20.766238",
+  "accuracy": 0.5344506517690876,
+  "correct": 287,
+  "total": 537,
+  "errors": 0,
+  "error_samples": []
+}

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Experiment artifacts (regenerate with the pipeline; do not commit)
+prepared_data/
+results/track_a_v2/
+results/track_b_v2/
+outputs/
+*.safetensors
+*.bin
+*.ckpt
+checkpoint-*/
+
+# Hugging Face caches
+hf_cache/
+.cache/
+
+# LaTeX build products
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+paper/preview_revised_sections.tex
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

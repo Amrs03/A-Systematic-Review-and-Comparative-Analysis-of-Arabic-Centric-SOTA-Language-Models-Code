@@ -1,0 +1,10 @@
+{
+  "model": "jais",
+  "dataset": "exams_ar",
+  "timestamp": "2026-04-21T22:59:00.985279",
+  "accuracy": 0.00186219739292365,
+  "correct": 1,
+  "total": 537,
+  "errors": 0,
+  "error_samples": []
+}

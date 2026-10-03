@@ -1,0 +1,13 @@
+torch
+transformers>=5.4
+accelerate
+bitsandbytes
+datasets
+evaluate
+seqeval
+scikit-learn
+tqdm
+pandas
+scipy
+matplotlib
+pytest

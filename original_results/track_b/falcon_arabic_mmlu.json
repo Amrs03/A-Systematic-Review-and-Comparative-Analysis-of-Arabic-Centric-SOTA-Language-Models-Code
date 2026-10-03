@@ -1,0 +1,19 @@
+{
+  "model": "falcon",
+  "model_label": "Falcon-Arabic",
+  "dataset": "arabic_mmlu",
+  "dataset_label": "Arabic MMLU",
+  "timestamp": "2026-05-30T04:26:35.503932",
+  "accuracy": 0.29622967831200275,
+  "correct": 4282,
+  "total": 14455,
+  "errors": 0,
+  "error_samples": [],
+  "error_summary": "",
+  "max_new_tokens": 20,
+  "generation_cache": "enabled_native_dynamic_cache",
+  "prompt_builder": "build_mcq_prompt",
+  "split": "test",
+  "first_prompt": "السؤال: كم عدد سور القرآن الكريم؟\nأ) 111\nب) 112\nج) 113\nد) 114\n\nاختر الإجابة الصحيحة (أ، ب، ج، أو د). أجب بحرف واحد فقط.\nالإجابة:",
+  "runtime_seconds": 8321.772536039352
+}

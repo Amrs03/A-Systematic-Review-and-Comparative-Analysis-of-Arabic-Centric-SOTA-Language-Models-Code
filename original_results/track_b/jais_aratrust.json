@@ -1,0 +1,10 @@
+{
+  "model": "jais",
+  "dataset": "aratrust",
+  "timestamp": "2026-04-21T23:20:12.070834",
+  "accuracy": 0.3218390804597701,
+  "correct": 168,
+  "total": 522,
+  "errors": 0,
+  "error_samples": []
+}
